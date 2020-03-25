@@ -5,6 +5,7 @@ Each HiRISE image includes 3 bands: IR, RED, and BG.
 I had created regions of interest as ArcMap shapefiles through inspection of these images. 
 I then produced scripts to extract the pixel data of these regions of interests. 
 The extracted data were then processed in order to calculate spectral parameters that reflect changes to the IR, RED, and BG values within the 3-band Mars images. 
+We were interested in understanding whether there were any clustersx within these calculated spectral parameters which was investigated using density plots. 
 
 You'll find 4 scripts:
 
